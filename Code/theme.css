@@ -1,0 +1,64 @@
+
+body
+{
+    font-family: 'Cardo', serif;
+    color:white;
+}
+
+.font
+{
+    font-family: 'Cardo', serif;
+}
+
+
+.card-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  min-height:680px;
+  
+}
+.banner{
+  background-image: url("images/index_banner.png");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+    background:transparent;
+    font-weight:700;
+    color:white;
+    font-size:18px;
+}
+
+@media only screen and (max-width : 800px)
+{
+    .navbar{
+        font-size:15px;
+    } 
+}
+
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+a:active {
+    color: white;
+  }
+
+#container { 
+	margin-right: auto;
+	margin-left: auto;
+}
