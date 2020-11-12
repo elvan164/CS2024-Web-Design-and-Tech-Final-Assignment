@@ -65,6 +65,15 @@ body
   background-position: center;
 }
 
+.work-community-banner{
+  background-image: url("images/work_community_banner.png");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+
 .navbar{
     background:transparent;
     font-weight:700;
