@@ -38,6 +38,15 @@ body
   background-position: center;
 }
 
+.services-wedding-photo-banner{
+  background-image: url("images/services_wedding_photo_banner.png");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+
 .navbar{
     background:transparent;
     font-weight:700;
@@ -137,4 +146,9 @@ a:active {
   padding-top:30pt; 
   padding-bottom:30pt; 
   background-color: #cac4bb;
+}
+
+.rates-border{
+  border-style:solid;
+  border-color:white;
 }
