@@ -4,6 +4,7 @@ body
     font-family: 'Cardo', serif;
     color:white;
     font-weight: 400;
+    max-width:1366px;
     
 }
 
@@ -18,8 +19,18 @@ body
   min-height:680px;
   
 }
+
 .index-banner{
   background-image: url("images/index_banner.png");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.services-banner{
+  background-image: url("images/services_banner.png");
   background-repeat: no-repeat;
   height:auto;
   width: auto;
@@ -88,6 +99,16 @@ a:active {
   position: relative; 
 }
 
+.white-underline{
+  font-size:36px; 
+  font-weight:400;
+  text-decoration: underline;
+  text-decoration-color: white; 
+  text-underline-position: under; 
+  text-decoration-thickness:5px;
+  position: relative; 
+}
+
 .thirds{
   position: relative; 
   width:30.66%;
@@ -99,3 +120,21 @@ a:active {
   width:1%;
 }
 
+
+.half{
+  position: relative; 
+  width:46%;
+}
+
+.half-space{
+  position: relative; 
+  min-height: 1px; 
+  width:2%;
+}
+
+.footer{
+  height:auto; 
+  padding-top:30pt; 
+  padding-bottom:30pt; 
+  background-color: #cac4bb;
+}
