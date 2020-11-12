@@ -47,6 +47,14 @@ body
   background-position: center;
 }
 
+.services-maternal-photo-banner{
+  background-image: url("images/services_maternal_photo_banner.png");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
 .navbar{
     background:transparent;
     font-weight:700;
