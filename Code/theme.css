@@ -3,6 +3,8 @@ body
 {
     font-family: 'Cardo', serif;
     color:white;
+    font-weight: 400;
+    
 }
 
 .font
@@ -16,7 +18,7 @@ body
   min-height:680px;
   
 }
-.banner{
+.index-banner{
   background-image: url("images/index_banner.png");
   background-repeat: no-repeat;
   height:auto;
@@ -32,11 +34,14 @@ body
     font-size:18px;
 }
 
-@media only screen and (max-width : 800px)
-{
-    .navbar{
-        font-size:15px;
-    } 
+.nav-item{
+  position: relative; 
+  width:24.25%;
+}
+
+.nav-space{
+  position: relative; 
+  width:1%;
 }
 
 a:link {
@@ -62,3 +67,35 @@ a:active {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.col-md-custom{
+  text-align:left; 
+  position: relative; 
+}
+
+.side-margin{
+  position: relative; 
+  width:3%;
+}
+
+.underline{
+  font-size:36px; 
+  font-weight:400;
+  text-decoration: underline;
+  text-decoration-color: #dbd8c7; 
+  text-underline-position: under; 
+  text-decoration-thickness:5px;
+  position: relative; 
+}
+
+.thirds{
+  position: relative; 
+  width:30.66%;
+}
+
+.thirds-space{
+  position: relative; 
+  min-height: 1px; 
+  width:1%;
+}
+
