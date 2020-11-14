@@ -92,6 +92,7 @@ body
 
 a:link {
     color: white;
+    text-decoration: none;
   }
   
   /* visited link */
@@ -126,7 +127,7 @@ a:active {
 
 .underline{
   font-size:1.978vw; 
-  font-weight:400;
+  font-weight:bold;
   text-decoration: underline;
   text-decoration-color: #dbd8c7; 
   text-underline-position: under; 
@@ -136,7 +137,7 @@ a:active {
 
 .white-underline{
   font-size:1.978vw; 
-  font-weight:400;
+  font-weight:bold;
   text-decoration: underline;
   text-decoration-color: white; 
   text-underline-position: under; 
@@ -177,4 +178,9 @@ a:active {
 .rates-border{
   border-style:solid;
   border-color:white;
+}
+
+.img:hover {
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
 }
