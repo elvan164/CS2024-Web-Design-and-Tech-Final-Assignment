@@ -77,7 +77,7 @@ body
     background:transparent;
     font-weight:700;
     color:white;
-    font-size:0.989vw;
+    font-size:1.35vw;
 }
 
 .nav-item{
@@ -101,7 +101,7 @@ a:visited {
   
   /* mouse over link */
 a:hover {
-    color: white;
+    color: grey;
   }
   
   /* selected link */
