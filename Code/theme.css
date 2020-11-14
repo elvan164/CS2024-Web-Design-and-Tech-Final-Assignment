@@ -126,7 +126,7 @@ a:active {
 }
 
 .underline{
-  font-size:1.978vw; 
+  font-size:1.758vw; 
   font-weight:bold;
   text-decoration: underline;
   text-decoration-color: #dbd8c7; 
@@ -136,7 +136,7 @@ a:active {
 }
 
 .white-underline{
-  font-size:1.978vw; 
+  font-size:1.758vw; 
   font-weight:bold;
   text-decoration: underline;
   text-decoration-color: white; 
@@ -183,4 +183,16 @@ a:active {
 .img:hover {
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
+}
+
+.packages-title{
+  font-weight: bold;
+  font-size:2.4vw;
+  padding-top:1.465vw; 
+}
+
+.packages-content{
+  font-size:1.465vw;
+  line-height: 1.5; 
+  padding:1.465vw 0.733vw 0vw 0.733vw;
 }
