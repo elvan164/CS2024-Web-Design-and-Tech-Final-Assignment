@@ -5,14 +5,7 @@ body
     font-weight: 400;    
     margin:0;
     padding:0;
-}
-
-html,body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
+    min-height:100vh;
 }
 
 .font
@@ -20,11 +13,10 @@ html,body {
     font-family: 'Cardo', serif;
 }
 
-
 .card-overlay {
   background: rgba(0, 0, 0, 0.3);
   min-height:48.718vw;
-  
+  min-width:100vw;
 }
 
 .index-banner{
